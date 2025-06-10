@@ -19,6 +19,7 @@ const Navbar = () => {
   };
 
   return (
+    // <div className="navbar-container">
     <div className='navbar'>
         <img src={logo} alt="" />
         <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
@@ -32,6 +33,7 @@ const Navbar = () => {
         </ul>
         <div className="nav-connect"><AnchorLink className='Anchor-Link offset={50}' href='#contact'>Connect With Me</AnchorLink></div>
     </div>
+  //  </div> 
   )
 }
 

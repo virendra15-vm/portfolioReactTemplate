@@ -45,14 +45,14 @@
     -webkit-text-fill-color: transparent;
 }
 
-.contact-left p{
+.contact-left p {
     max-width: 550px;
     color: #D8D8D8;
     font-size: 16px;
     line-height: 25px;
 }
 
-.contact-details{
+.contact-details {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -60,17 +60,17 @@
     color: #D8D8D8;
 }
 
-.contact-detail{
+.contact-detail {
     display: flex;
     align-items: center;
     gap: 18px;
 }
 
-.contact-detail img{
+.contact-detail img {
     width: 25px;
 }
 
-.contact-right{
+.contact-right {
     flex-basis: 55%;
     display: flex;
     flex-direction: column;
@@ -78,13 +78,13 @@
     align-items: start;
 }
 
-.contact-right label{
+.contact-right label {
     color: #D8D8D8;
     /* font-size: 22px;
     font-weight: 500; */
 }
 
-.contact-right input{
+.contact-right input {
     border: none;
     width: 100%;
     /* height: 50px; */
@@ -96,24 +96,24 @@
     font-size: 18px;
 }
 
-.contact-right textarea{
+.contact-right textarea {
     width: 100%;
     border: none;
     padding: 18px 0 18px 20px;
     border-radius: 4px;
     background: #32323c;
-    color:#A0A0A0;
+    color: #A0A0A0;
     font-family: Outfit;
     font-size: 18px;
 }
 
-.contact-submit{
+.contact-submit {
     border: none;
     color: white;
     border-radius: 50px;
 }
 
-.contact-submit{
+.contact-submit {
     border: none;
     color: #fff;
     border-radius: 50px;
@@ -124,63 +124,79 @@
     cursor: pointer;
 }
 
-.contact-submit:hover{
+.contact-submit:hover {
     transform: scale(1.1);
     transition: 0.3s;
 }
 
-span{
+span {
     color: red;
 }
 
-@media(max-width: 768px){
-    .contact{
+@media(max-width: 768px) {
+    .contact {
         gap: 80px;
-         margin: 50px 70px;
-         align-items: start;
+        margin: 50px 70px;
+        align-items: start;
     }
-    .contact-title h1{
+
+    .contact-title h1 {
         font-size: 50px;
         padding: 0px;
     }
-    .contact-title img{
+
+    .contact-title img {
         width: 130px;
         right: -20px
     }
 
-    .contact-section{
+    .contact-section {
         display: flex;
         flex-direction: column;
     }
-    .contact-left h1{
+
+    .contact-left h1 {
         font-size: 54px;
     }
-    .contact-left p{
+
+    .contact-left p {
         font-size: 18px;
     }
-    .contact-detail{
+
+    .contact-detail {
         gap: 20px;
     }
-    .contact-detail img{
+
+    .contact-detail img {
         width: 25px;
     }
-    .contact-right label{
+
+    .contact-right label {
         font-size: 20px;
     }
 
-    .contact-right input{
+    .contact-right input {
         width: 95%;
         font-size: 20px;
 
     }
-    .contact-right textarea{
+
+    .contact-right textarea {
         width: 95%;
         font-size: 20px;
     }
 
-    .contact-submit{
+    .contact-submit {
         font-size: 20px;
         padding: 15px 40px;
     }
-    
+
+}
+
+@media(max-width: 480px) {
+    .contact {
+       
+        gap: 50px;
+        margin: 50px 50px;
+    }
 }

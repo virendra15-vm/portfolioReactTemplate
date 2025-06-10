@@ -116,7 +116,7 @@
     .services {
         gap: 80px;
         margin: 50px 70px;
-        align-items: start;
+        align-items: center;
     }
 
     .services-title h1{
@@ -150,5 +150,14 @@
         gap: 30px;
     }
 
+}
+
+@media(max-width: 480px) {
+
+     .services {
+        gap: 80px;
+        margin: 50px 50px;
+        align-items: center;
+    }
 
 }
