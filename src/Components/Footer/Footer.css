@@ -92,4 +92,7 @@
     .footer-subscribe{
         padding: 13px 25px;
     }
+    .footer-top-right{
+        display: none;
+    }
 }
