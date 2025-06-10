@@ -153,11 +153,14 @@
 }
 
 @media(max-width: 480px) {
-
      .services {
         gap: 80px;
-        margin: 50px 50px;
+        margin: 50px 70px;
         align-items: center;
+    }
+     .sevices-container{
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 
 }
